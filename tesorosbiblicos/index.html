@@ -1,0 +1,177 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link href="estilos/estilo.css" rel="stylesheet">
+	<script src="jquery/jquery-latest.js"></script>
+	<script src="jquery/menu.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a id=iconomenu><canvas id="dibujo" width= "16" height= "16"></canvas></a>
+				</li>
+				<li id="titulo">
+					<a><h1>Tesoros Biblicos<h1></a>
+				</li>
+				<li id="buscar">
+					<a></a>
+				</li>
+				</ul>
+
+		</nav>
+		<div id="contenedor">
+			<ul id="menu">
+				<li class="menu">
+					<a class="itemmenu">Reina Valera 1960</a>
+				</li >
+				<li class="menu">
+					<a class="itemmenu">Nuevo Traducción Viviente.</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu">Traducción en Lenguaje Actual.</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu">Nueva Versión Actual.</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu">Biblia de las Americas.</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu">Dios Habla Hoy.</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu">-Acerca del autor-</a>
+				</li>
+			</ul>
+			<article>
+
+
+		<div>
+		<h2>Mi Dios oirá cuando a el clamare.</h2>
+		<p>Salmos 4:3</p>
+		</div>
+		<div>
+		<h2>Pero el Justo vivirá por la Fe.</h2>
+		<p>Romanos 1:17</p>
+		</div>
+		<div>
+		<h2>¡Por medio de ti serán bendecidas las familias de la tierra!</h2>
+		<p>Génesis 12:3</p>
+		</div>
+		<div>
+		<h2>Pues no hay distinción de personas delante de Dios</h2>
+		<p>Romanos 2:11</p>
+		<d/iv>
+		<div>
+		<h2>El hombre no es Señor de su camino,ni del hombre que camina es el ordenar sus Pasos.</h2>
+		<p>Jeremias 10:23</p>
+		</div>
+		<div>
+		<h2>Dios es mi Salvación,el Señor es mi fortaleza.</h2>
+		<p>Isaias 12:2</p>
+		</div>
+		<div>
+		<h2>Venid, Pues, Dice el Señor tu Dios, y razonemos juntos.</h2>
+		<p>Isaias 1:18</p>
+		</div>
+		<div>
+		<h2>Te bendeciré y serás de bendición.</h2>
+		<p>Génesis 12:2</p>
+		</div>
+		<div>
+		<h2>Jesus dijo: vete, tu Fe te ha salvado.</h2>
+		<p>Marcos10:52</p>
+		</div>
+		<div>
+		<h2>En Dios Solamente esta acallada mi alma: de el viene mi salvación.</h2>
+		<p>Salmos 62:1</p>
+		</div>
+		<div>
+		<h2>¿Acaso existe para Dios alguna cosa difícil?.</h2>
+		<p>Génesis 18:14</p>
+		</div>
+		<div>
+		<h2>Mi Escudo está en Dios que salva a los Recto de Corazón.</h2>
+		<p>Salmos 7:10</p>
+		</div>
+		<div>
+		<h2>exhorto a todos a que con corazón firme Permancan en el Señor.</h2>
+		<p>Hechos 11:23</p>
+		</div>
+		<div>
+		<h2>El Señor dirija vuestro corazones hacia el amor de Dios.</h2>
+		<p>2 Tesalonicenses</p>
+		</div>
+		<div>
+		<h2>El Dios tuyo, a quien tu continuamente sirves, él te libre.</h2>
+		<p>Daniel 8:16</p>
+		</div>
+		<div>
+		<h2>Oh Jehová fortaleza mía y fuerza mía, y refugio mío en el tiempo de la aflicción.</h2>
+		<p>Jeremías 16:19</p>
+		</div>
+		<div>
+		<h2>¿Andarán dos juntos, a menos que se Pongan de acruerdo?.</h2>
+		<p>Amós 3:3</p>
+		</div>
+		<div>
+		<h2>Porque el Señor tu Dios va contigo.El no te abandonará ni te desamparará.</h2>
+		<p>Deuteronomio 31:6</p>
+		</div>
+		<div>
+		<h2>Pero cualquiera que beba del agua que yo le daré, nunca más tendrá Sed.</h2>
+		<p>Juan 4:14</p>
+		</div>
+		<div>
+		<h2>Ahora pues, haz todo lo que Dios te ha dicho.</h2>
+		<p>Genesis 31:16</p>
+		</div>
+		<div>
+		<h2>Yo soy el Dios tuyo, que te enseña Provechosamente, que te encamina por el camino que debes seguir.</h2>
+		<p>Isaias 48:17</p>
+		</div>
+		<div>
+		<h2>Oye, oh Dios, mi clamor. A mi oración atiende.</h2>
+		<p>Salmos 61:1</p>
+		</div>
+		<div>
+		<h2>Con mi voz clame a Dios, y él me respondió desde su monte Santo.</h2>
+		<p>Salmos 3:4</p>
+		</div>
+	   </article>
+		</div>
+
+	    <footer>
+	    </footer>
+
+
+	<script>
+	var canvas = document.getElementById('dibujo'); /*variable que ocupa un lugar en la memoria ram, guarda un objeto de tipo canvas por su id, el id tiene q ser el mismo q en la etiqueta html*/
+	var context = canvas.getContext('2d'); /*genera el contexto, es donde vamos a dibujar todas las lineas curvas y circunferencias*/
+
+		context.beginPath(); /*quiere decir que va a comenzar con nuestro dibujito*/
+		context.moveTo(0,1); /*mover el lapiz*/
+		context.lineTo(0,4); /*dibujar la linea*/
+		context.lineTo(16,4);
+		context.lineTo(16,1);
+		context.moveTo(0,7);
+		context.lineTo(0,9);
+		context.lineTo(16,9);
+		context.lineTo(16,7);
+		context.moveTo(0,13);
+		context.lineTo(0,16);
+		context.lineTo(16,16);
+		context.lineTo(16,13);
+		context.closePath(); /*para cerrar el dibujo*/
+		context.lineWidth = 2; /*grosor dela linea*/
+		context.strokeStyle = "white"; /*es el color de las lineas del perimetro de la figura*/
+		context.stroke(); /*cierra el comando*/
+		context.fillStyle = "rgba(255, 255, 255,1.0)"; /*relleno de la figura*/
+		context.fill();	/*cierra el comando*/
+
+
+	</script>
+
+	</body>
+</html>
